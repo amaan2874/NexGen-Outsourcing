@@ -1,0 +1,307 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+
+/* Navbar */
+.navbar {
+    background-color: #fff;
+    padding: 15px 0;
+    border-bottom: 2px solid #e7f7fe;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nex{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+}
+.nex .logoNex{
+    width: 35px;
+}
+.navbar .logo {
+    font-weight: bold;
+    color: #00bfff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.navbar .menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .menu a {
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar .menu a.active,
+.navbar .menu a:hover {
+    color: #00bfff;
+}
+
+
+/* Custom Solutions Section */
+.custom-solutions {
+    background-color: #e7f7fe;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.custom-solutions h3 {
+    color: #00bfff;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.custom-solutions p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.custom-solutions .btn {
+    padding: 10px 20px;
+    background-color: #00bfff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+/* Footer */
+footer {
+    padding: 50px 0;
+    background-color: #fff;
+    border-top: 2px solid #e7f7fe;
+}
+
+.footer-logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo2 {
+    font-weight: bold;
+    color: #00bfff;
+    /* background-color: red; */
+    text-decoration: none;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 70px;
+    margin-bottom: 40px;
+}
+
+.newsletter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+.newsletter button {
+    padding: 10px 15px;
+    background-color: #00bfff;
+    border: none;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.footer-links .link-column {
+    width: 100%;
+    max-width: 22%;
+    margin-bottom: 20px;
+}
+
+.footer-links .link-column h4 {
+    color: #00bfff;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer-links .link-column a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.footer-links .link-column a:hover {
+    text-decoration: underline;
+}
+
+
+/* Large Tablets and Small Desktops */
+@media (max-width: 1024px) {
+    .get-in-touch .form-section,
+    .get-in-touch .image-section {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact-info .info-item {
+        width: 45%;
+    }
+}
+
+
+/* Small Tablets and Large Phones */
+@media (max-width: 768px) {
+    .navbar .logo {
+        font-size: 20px;
+    }
+
+    .navbar .menu {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .navbar .menu a {
+        margin: 10px 0;
+        font-size: 14px;
+    }
+    
+    .get-in-touch .form-section{
+        margin-right: 25px;
+    }
+    .get-in-touch .form-section .btn{
+        margin-left: 25px;
+    }
+    .get-in-touch .image-section {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .contact-info .info-item {
+        width: 48%;
+    }
+
+    .footer-links .link-column {
+        max-width: 48%;
+    }
+}
+
+
+/* Mobile Phones */
+@media (max-width: 576px) {
+    .navbar .logo {
+        font-size: 18px;
+    }
+
+    .navbar .menu a {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+
+    .newsletter input {
+        width: 180px;
+    }
+
+    .newsletter button {
+        font-size: 14px;
+    }
+
+    .get-in-touch h2,
+    .custom-solutions h3 {
+        font-size: 20px;
+    }
+
+    .get-in-touch .overlay-text {
+        font-size: 14px;
+    }
+
+    .get-in-touch form input,
+    .get-in-touch form textarea,
+    .get-in-touch form button {
+        font-size: 14px;
+    }
+
+    .contact-info .info-item {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .custom-solutions p {
+        font-size: 16px;
+    }
+
+    .footer-links .link-column {
+        max-width: 100%;
+    }
+}
+
+
+/* Menu Toggle Button (Hamburger) */
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Show menu toggle button on small screens */
+@media (max-width: 768px) {
+    .navbar .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #fff;
+        border-bottom: 2px solid #e7f7fe;
+    }
+
+    .navbar .menu a {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu.show {
+        display: flex;
+    }
+}

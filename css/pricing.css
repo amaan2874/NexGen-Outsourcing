@@ -1,0 +1,131 @@
+
+.plan-section {
+    padding: 2rem;
+    background-color: #f7f7f7;
+}
+
+.plan-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.plan-section h2 span {
+    color: #00bfff;
+}
+
+.plan-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.plan-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 280px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.plan-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.plan-card p {
+    color: #888;
+}
+
+.plan-card .price {
+    font-size: 2rem;
+    color: #00bfff;
+    margin: 1rem 0;
+}
+
+.plan-card .plan-button {
+    display: block;
+    margin: 0 auto 1rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #00bfff;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.plan-card .plan-button:hover {
+    background-color: #008fbf;
+}
+
+.plan-card .plan-button.recommended {
+    background-color: #66d3ff;
+}
+
+.plan-card ul {
+    list-style-type: none;
+    padding: 0;
+    color: #333;
+    text-align: left;
+}
+
+.plan-card ul li {
+    margin: 0.5rem 0;
+}
+
+.feedback-section {
+    padding: 2rem;
+    background-color: #e9f7ff;
+    text-align: center;
+}
+
+.feedback-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.feedback-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.feedback-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 250px;
+}
+
+.feedback-card p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.feedback-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feedback-rating {
+    font-size: 1.5rem;
+    color: #ffa500;
+}
+
+.feedback-author p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.feedback-author span {
+    font-size: 0.85rem;
+    color: #888;
+}

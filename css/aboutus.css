@@ -1,0 +1,399 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.aboutcontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-us, .founder-story {
+    padding: 40px 20px;
+}
+
+.text-content {
+    flex: 1 1 50%;
+    padding: 20px;
+}
+
+.text-content h2 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.text-content h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.text-content h1 .highlight {
+    color: #00bfff;
+}
+
+.text-content p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.text-content .assist-link {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+.image-content {
+    flex: 1 1 40%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-content img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.founder-story {
+    background-color: #00bfff;
+    color: #fff;
+}
+
+.founder-story .text-content h2 {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .aboutcontainer {
+        flex-direction: column;
+    }
+    .image-content {
+        order: -1;
+    }
+}
+
+@media (max-width: 480px) {
+    .text-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .text-content p {
+        font-size: 0.9rem;
+    }
+
+    .text-content h2 {
+        font-size: 1rem;
+    }
+}
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+} */
+
+.history-section {
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-titleHis {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-titleHis p {
+    font-size: 1rem;
+    color: #888;
+}
+
+.section-titleHis h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-top: 10px;
+}
+
+.section-titleHis h1 .highlight {
+    color: #00bfff;
+}
+
+.timeline {
+    position: relative;
+    padding: 20px 0;
+}
+
+.timeline::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #00bfff;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+}
+
+.timeline-item {
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+
+.timeline-item.left {
+    left: 0;
+    text-align: right;
+}
+
+.timeline-item.right {
+    left: 50%;
+    text-align: left;
+}
+
+.timeline-item.left::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    background-color: #00bfff;
+    border-radius: 50%;
+    top: 20px;
+}
+
+.timeline-item.right::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: -10px;
+    background-color: #00bfff;
+    border-radius: 50%;
+    top: 20px;
+}
+
+.timeline-content h2 {
+    font-size: 1.5rem;
+    color: #00bfff;
+    margin-bottom: 10px;
+}
+
+.timeline-content p {
+    font-size: 1rem;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .timeline::before {
+        left: 8px;
+    }
+
+    .timeline-item {
+        width: 100%;
+        padding-left: 60px;
+        padding-right: 20px;
+        text-align: left;
+    }
+
+    .timeline-item.left, .timeline-item.right {
+        left: 0;
+    }
+
+    .timeline-item.left::before, .timeline-item.right::before {
+        left: 18px;
+        right: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .timeline-content h2 {
+        font-size: 1.2rem;
+    }
+
+    .timeline-content p {
+        font-size: 0.9rem;
+    }
+}
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #00cfff;
+    color: #333;
+} */
+
+.team-section {
+    padding: 60px 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #00cfff;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-title {
+    margin-bottom: 40px;
+}
+
+.section-title p {
+    font-size: 1rem;
+    color: #eee;
+}
+
+.section-title h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.section-title h1 .highlight {
+    color: #ffffff;
+}
+
+.team-carousel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+}
+
+.team-card {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 200px;
+    margin: 0 10px;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+.team-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.team-info {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    text-align: center;
+}
+
+.team-info h3 {
+    font-size: 1.25rem;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.team-info p {
+    font-size: 0.875rem;
+    color: #777;
+}
+
+.carousel-controls {
+    margin-top: 20px;
+}
+
+.carousel-controls .dot {
+    height: 15px;
+    width: 15px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+.carousel-controls .dot.active {
+    background-color: #fff;
+}
+
+@media (max-width: 768px) {
+    .team-carousel {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title h1 {
+        font-size: 2rem;
+    }
+
+    .team-card {
+        width: 150px;
+    }
+
+    .team-card img {
+        height: 200px;
+    }
+    .team-info {
+        padding: 15px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 15px;
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+        height: 30%;
+        text-align: center;
+    }
+    .team-info h3 {
+        font-size: 12px;
+        margin-bottom: 5px;
+        color: #333;
+    }
+    
+    .team-info p {
+        font-size: 12px;
+        color: #777;
+    }
+}
