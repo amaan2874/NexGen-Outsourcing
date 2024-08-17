@@ -31,7 +31,6 @@ body {
     align-items: center;
 }
 .nex{
-    /* background-color: red; */
     display: flex;
     flex-direction: row;
 }
@@ -62,6 +61,48 @@ body {
     color: #00bfff;
 }
 
+
+/* .firstnav nav {
+    background: #FFFFFF;
+ 
+  }
+  .secondnav {
+    background-color: #00BDD626;
+    height: 3rem;
+    padding: 11px 0px 0px 0px;
+    margin: 0px 0px -118px 1px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #00BDD6;
+  }
+  
+  .index-btn{
+    width: 150px;
+    padding: 12PX;
+    color:#FFFFFF;
+    border: 2px;
+    border-radius: 8px 8px 8px 8px;
+    font-size: 20px;
+    cursor: pointer;
+    background: #00BDD6;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  } */
 
 /* Custom Solutions Section */
 .custom-solutions {
@@ -104,14 +145,10 @@ footer {
 }
 
 .logo2 {
-    font-weight: bold;
-    color: #00bfff;
-    /* background-color: red; */
-    text-decoration: none;
-    font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
+    align-self: center;
     padding-right: 70px;
     margin-bottom: 40px;
 }
