@@ -1,0 +1,269 @@
+
+
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #171A1F;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+/* Header */
+.secondnav {
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* First section styles */
+.firstsection, .firstsection-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 5%;
+}
+
+.firstsection .leftsection, .firstsection-2 .leftsection-2 {
+    flex: 1;
+    padding: 10px;
+}
+
+.firstsection .rightsection, .firstsection-2 .rightsection-2 {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.Magnetize, .callcol {
+    font-size: 2.5rem;
+    color: #341473;
+    margin-bottom: 10px;
+}
+
+.textcol, .Businesscol {
+    font-size: 1.8rem;
+    color: #341473;
+    margin-bottom: 20px;
+}
+
+.p, .p2 {
+    font-size: 1rem;
+    color: #323842;
+    line-height: 1.5;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.btn-1, .btn-2 {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn-1 {
+    background: #00BDD6;
+    color: #FFFFFF;
+}
+
+.btn-2 {
+    background: #C8F9FF;
+    color: #006D7C;
+}
+
+.rightsection img, .rightsection-2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content-section {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.content-per {
+    font-size: 2rem;
+    line-height: 1.6;
+    color: #171A1F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Second section styles */
+.secondsection {
+    padding: 20px;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.col {
+    flex: 1;
+    max-width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+.col img {
+    max-width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.toll, .number, .local {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.toll{
+    color: 
+    #00BDD6;
+}
+.number{
+    color: #8353E2;
+}
+.local{
+    color: #4069E5;
+}
+.phoneper, .board-per, .multiper {
+    font-size: 0.9rem;
+    color: #171A1F;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .firstsection, .firstsection-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .firstsection .leftsection, .firstsection-2 .leftsection-2 {
+        text-align: center;
+    }
+
+    .Magnetize, .callcol {
+        font-size: 2rem;
+    }
+
+    .textcol, .Businesscol {
+        font-size: 1.5rem;
+    }
+
+    .p, .p2 {
+        font-size: 0.9rem;
+    }
+
+    .btn-1, .btn-2 {
+        font-size: 0.9rem;
+    }
+
+    .secondsection .row {
+        flex-direction: column;
+    }
+    .row{
+        align-items: center;
+        justify-content: center;
+    }
+    .col {
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .content-img {
+        max-width: auto;
+        height: auto;
+    }
+    .content-section {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
+    .firstsection, .firstsection-2 {
+        margin: 10px 2%;
+    }
+
+    .Magnetize, .callcol {
+        font-size: 1.5rem;
+    }
+
+    .textcol, .Businesscol {
+        font-size: 1.2rem;
+    }
+
+    .p, .p2 {
+        font-size: 0.8rem;
+    }
+
+    .btn-1, .btn-2 {
+        padding: 8px 15px;
+        font-size: 0.8rem;
+    }
+
+    .secondsection .row {
+        flex-direction: column;
+    }
+
+    .col {
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .content-img {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .content-per {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .Magnetize, .callcol {
+        font-size: 1.2rem;
+    }
+
+    .textcol, .Businesscol {
+        font-size: 1rem;
+    }
+
+    .p, .p2 {
+        font-size: 0.7rem;
+    }
+
+    .btn-1, .btn-2 {
+        padding: 6px 12px;
+        font-size: 0.7rem;
+    }
+
+    .content-per {
+        font-size: 0.8rem;
+    }
+}
