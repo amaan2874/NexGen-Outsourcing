@@ -7,18 +7,25 @@ body {
     background-color: #f8f9fa;
 }
 
+.secondnav {
+    background-color: #00BDD626;
+    height: 3rem;
+    padding: 11px 0px 0px 0px;
+    margin: 0px 0px -118px 1px;
+    margin-top: 65px;
+  }
 .container {
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 0;
+    /* padding: 20px 0; */
 }
 
 
 /* Navbar */
 .navbar {
     background-color: #fff;
-    padding: 15px 0;
+    padding: 8px 0;
     border-bottom: 2px solid #e7f7fe;
     position: sticky;
     top: 0;
